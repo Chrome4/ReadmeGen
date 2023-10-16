@@ -1,4 +1,4 @@
-const questions = [
+const askQuestions = [
   {
     type: "input",
     message: "Title for your project?",
@@ -11,17 +11,17 @@ const questions = [
   },
   {
     type: "input",
-    message: "Installation instructions for your project?",
+    message: "Installation for your project?",
     name: "installation",
   },
   {
     type: "input",
-    message: "Usage information for your project?",
+    message: "Usage for your project?",
     name: "usage",
   },
   {
     type: "input",
-    message: "Contribution guidelines for your project?",
+    message: "Contribution for your project?",
     name: "contributing",
   },
   {
@@ -140,7 +140,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please enter your GitHub username.",
+    message: "Enter your GitHub username.",
     name: "username",
   },
   {
@@ -150,4 +150,4 @@ const questions = [
   },
 ];
 
-module.exports = questions;
+module.exports = askQuestions;

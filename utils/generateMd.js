@@ -52,7 +52,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-If you have questions, open an issue 
+If you have questions open an issue 
 or contact me at ${data.email}. You can find 
 more of my work at [${data.username}](https://github.com/${data.username}).`;
 }

@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMd");
-const questions = require("./utils/promts.js");
+const askQuestions = require("./utils/promts.js");
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), err =>
@@ -11,9 +11,9 @@ function writeToFile(fileName, data) {
 
 function init() {
   inquirer
-    .prompt(questions)
+    .prompt(askQuestions)
     .then(answers => {
-      writeToFile("./tests/README.md", answers);
+      writeToFile("./mytests/README.md", answers);
     })
     .catch(err => {
       if (err.isTtyError) {
