@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-undefined.svg)](https://opensource.org/licenses/undefined)
 
 ## Description
-Its for testing
+For testing
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,7 +13,7 @@ Its for testing
 - [Questions](#questions)
 
 ## Installation
-Node index.js
+node index.js
 
 ## Usage
 Testing
@@ -22,12 +22,12 @@ Testing
 This repository is covered under none.
 
 ## Contributing
-Test
+None
 
 ## Tests
-Test int
+Test
 
 ## Questions
-If you have questions, open an issue 
-or contact me at sfwefe. You can find 
-more of my work at [kyle](https://github.com/kyle).
+If you have questions open an issue 
+or contact me at Test@gmail.com. You can find 
+more of my work at [Chrome](https://github.com/Chrome).
